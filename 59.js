@@ -1,0 +1,18 @@
+// Create a function that takes a numver as an argument and 
+// returns negative of that number. Return negative numbers
+// without any change
+
+// Examples:
+
+// returnNegative(4) ➞ -4
+// returnNegative(15) ➞ -15
+// returnNegative(-4) ➞ -4
+// returnNegative(0) ➞ 0
+
+// **************************************************************
+
+function returnNegative(n) {
+	return -Math.abs(n)
+}
+
+// **************************************************************
